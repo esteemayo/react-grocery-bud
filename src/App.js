@@ -60,7 +60,7 @@ function App() {
   };
 
   const handleDeleteItem = (id) => {
-    showAlert(true, "danger", "Item removed");
+    showAlert(true, 'danger', 'Item removed');
     const updList = list.filter((item) => item.id !== id);
     setList(updList);
   };
