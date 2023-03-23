@@ -18,7 +18,7 @@ const List = ({ items, onEdit, onDelete }) => {
               />
               <Button
                 icon={<FaTrash />}
-                className="delete-btn"
+                className='delete-btn'
                 onClick={() => onDelete(id)}
               />
             </div>
