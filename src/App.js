@@ -33,10 +33,7 @@ function App() {
     if (!name) {
       showAlert(true, 'danger', 'Please enter a value');
     } else if (name && isEditing) {
-      const updList = list.map((item) => {
-        if (item.id === editID) return { ...item, title: name };
-        return item;
-      });
+      const updList = list.map((item) => item.id === editID ? { ...item, title: name } : item);
 
       setList(updList);
       setName('');
