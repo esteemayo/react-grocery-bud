@@ -79,9 +79,9 @@ function App() {
         <h3>Grocery Bud</h3>
         <div className='form-control'>
           <input
-            type="text"
-            placeholder="e.g. Eggs"
-            className="grocery"
+            type='text'
+            placeholder='e.g. Eggs'
+            className='grocery'
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
