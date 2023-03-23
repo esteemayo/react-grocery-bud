@@ -77,7 +77,7 @@ function App() {
       <form onSubmit={handleSubmit} className='grocery-form'>
         {alert.show && <Alert {...alert} hideAlert={showAlert} list={list} />}
         <h3>Grocery Bud</h3>
-        <div className="form-control">
+        <div className='form-control'>
           <input
             type="text"
             placeholder="e.g. Eggs"
