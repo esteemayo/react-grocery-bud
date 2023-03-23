@@ -8,8 +8,8 @@ import './App.css';
 import { getFromStorage, listKey, setToStorage } from 'utils';
 
 const getLocalStorage = () => {
-  const list = localStorage.getItem('list');
-  if (list) return JSON.parse(list);
+  const list = getFromStorage(listKey);
+  if (list) return list;
   return [];
 };
 
