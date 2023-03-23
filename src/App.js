@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import List from 'components/List';
 import Alert from 'components/Alert';
+import List from 'components/List';
 import Button from 'components/Button';
 
 import './App.css';
