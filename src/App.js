@@ -29,7 +29,7 @@ function App() {
     e.preventDefault();
 
     if (!name) {
-      showAlert(true, "danger", "Please enter a value");
+      showAlert(true, 'danger', 'Please enter a value');
     } else if (name && isEditing) {
       const updList = list.map((item) => {
         if (item.id === editID) return { ...item, title: name };
