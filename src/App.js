@@ -94,7 +94,6 @@ function App() {
             type='text'
             className='grocery'
             placeholder='e.g. Eggs'
-            className='grocery'
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
