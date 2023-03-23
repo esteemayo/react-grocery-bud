@@ -21,7 +21,7 @@ function App() {
   const [alert, setAlert] = useState({ show: false, msg: '', type: '' });
 
   useEffect(() => {
-    localStorage.setItem('list', JSON.stringify(list));
+    setToStorage(listKey, list);
   }, [list]);
 
   const handleSubmit = (e) => {
