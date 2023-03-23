@@ -9,8 +9,6 @@ import {
   setToStorage,
 } from 'utils';
 
-import './App.css';
-
 const getLocalStorage = () => {
   const list = getFromStorage(listKey);
   return list ?? [];
