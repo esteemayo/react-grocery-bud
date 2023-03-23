@@ -13,8 +13,9 @@ import './App.css';
 
 const getLocalStorage = () => {
   const list = getFromStorage(listKey);
-  if (list) return list;
-  return [];
+  return list ?? [];
+  // if (list) return list;
+  // return [];
 };
 
 function App() {
