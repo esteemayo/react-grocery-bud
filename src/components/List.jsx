@@ -13,7 +13,7 @@ const List = ({ items, onEdit, onDelete }) => {
             <div className='btn-container'>
               <Button
                 icon={<FaEdit />}
-                className="edit-btn"
+                className='edit-btn'
                 onClick={() => onEdit(id)}
               />
               <Button
