@@ -71,6 +71,10 @@ function App() {
     setName(specificItem.title);
   };
 
+  useEffect(() => {
+    setToStorage(listKey, list);
+  }, [list]);
+
   return (
     <section className='section-center'>
       <form onSubmit={handleSubmit} className='grocery-form'>
