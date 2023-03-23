@@ -1,5 +1,4 @@
 import { FaEdit, FaTrash } from 'react-icons/fa';
-
 import Button from './Button';
 
 const List = ({ items, onEdit, onDelete }) => {
