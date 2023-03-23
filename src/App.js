@@ -37,7 +37,7 @@ function App() {
       });
 
       setList(updList);
-      setName("");
+      setName('');
       setEditID(null);
       setIsEditing(false);
       showAlert(true, "success", "Value changed");
