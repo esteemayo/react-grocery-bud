@@ -86,7 +86,6 @@ function App() {
             {...alert}
             list={list}
             hideAlert={showAlert}
-            list={list}
           />
         )}
         <h3>Grocery Bud</h3>
