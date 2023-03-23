@@ -46,7 +46,7 @@ function App() {
       const id = new Date().getTime().toString();
       const newList = { id, title: name };
       setList([...list, newList]);
-      setName("");
+      setName('');
     }
   };
 
