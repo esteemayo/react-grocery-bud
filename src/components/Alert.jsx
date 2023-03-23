@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 const Alert = ({ type, msg, hideAlert, list }) => {
   useEffect(() => {
