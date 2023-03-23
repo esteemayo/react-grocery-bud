@@ -19,7 +19,7 @@ function App() {
   const [list, setList] = useState(getLocalStorage());
   const [isEditing, setIsEditing] = useState(false);
   const [editID, setEditID] = useState(null);
-  const [alert, setAlert] = useState({ show: false, msg: "", type: "" });
+  const [alert, setAlert] = useState({ show: false, msg: '', type: '' });
 
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(list));
