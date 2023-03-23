@@ -6,7 +6,6 @@ import Button from 'components/Button';
 import { getFromStorage, listKey, setToStorage } from 'utils';
 
 import './App.css';
-import { getFromStorage, listKey, setToStorage } from 'utils';
 
 const getLocalStorage = () => {
   const list = getFromStorage(listKey);
