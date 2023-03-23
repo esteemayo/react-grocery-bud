@@ -92,6 +92,7 @@ function App() {
         <div className='form-control'>
           <input
             type='text'
+            className='grocery'
             placeholder='e.g. Eggs'
             className='grocery'
             value={name}
