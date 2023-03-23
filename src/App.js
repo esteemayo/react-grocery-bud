@@ -93,7 +93,7 @@ function App() {
         </div>
       </form>
       {list.length > 0 && (
-        <div className="grocery-container">
+        <div className='grocery-container'>
           <List
             items={list}
             onEdit={handleEditItem}
