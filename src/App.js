@@ -95,7 +95,6 @@ function App() {
             value={name}
             className='grocery'
             placeholder='e.g. Eggs'
-            value={name}
             onChange={(e) => setName(e.target.value)}
           />
           <Button
