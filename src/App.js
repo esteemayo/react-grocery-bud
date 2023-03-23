@@ -55,7 +55,7 @@ function App() {
   };
 
   const handleClearList = () => {
-    showAlert("true", "danger", "Empty list");
+    showAlert('true', 'danger', 'Empty list');
     setList([]);
   };
 
