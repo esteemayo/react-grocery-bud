@@ -22,7 +22,7 @@ function App() {
   const [alert, setAlert] = useState({ show: false, msg: '', type: '' });
 
   useEffect(() => {
-    localStorage.setItem("list", JSON.stringify(list));
+    localStorage.setItem('list', JSON.stringify(list));
   }, [list]);
 
   const handleSubmit = (e) => {
