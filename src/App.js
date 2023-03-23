@@ -84,6 +84,7 @@ function App() {
         {alert.show && (
           <Alert
             {...alert}
+            list={list}
             hideAlert={showAlert}
             list={list}
           />
