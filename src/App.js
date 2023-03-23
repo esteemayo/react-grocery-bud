@@ -86,9 +86,9 @@ function App() {
             onChange={(e) => setName(e.target.value)}
           />
           <Button
-            type="submit"
-            className="submit-btn"
-            text={`${isEditing ? "Edit" : "Submit"}`}
+            type='submit'
+            className='submit-btn'
+            text={`${isEditing ? 'Edit' : 'Submit'}`}
           />
         </div>
       </form>
