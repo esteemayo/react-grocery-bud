@@ -20,9 +20,6 @@ function App() {
   const [editID, setEditID] = useState(null);
   const [alert, setAlert] = useState({ show: false, msg: '', type: '' });
 
-  useEffect(() => {
-    setToStorage(listKey, list);
-  }, [list]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
