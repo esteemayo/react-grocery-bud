@@ -4,7 +4,7 @@ import Button from './Button';
 
 const List = ({ items, onEdit, onDelete }) => {
   return (
-    <div className="grocery-list">
+    <div className='grocery-list'>
       {items.map((item) => {
         const { id, title } = item;
         return (
