@@ -47,7 +47,11 @@ function App() {
       showAlert(true, 'success', 'Item added to the list');
 
       const id = new Date().getTime().toString();
-      const newList = { id, title: name };
+      const newList = {
+        id,
+        title: name,
+      };
+
       setList([...list, newList]);
       setName('');
     }
