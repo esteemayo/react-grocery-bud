@@ -100,8 +100,8 @@ function App() {
             onDelete={handleDeleteItem}
           />
           <Button
-            text="Clear Items"
-            className="clear-btn"
+            text='Clear Items'
+            className='clear-btn'
             onClick={handleClearList}
           />
         </div>
