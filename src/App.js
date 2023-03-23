@@ -12,8 +12,6 @@ import {
 const getLocalStorage = () => {
   const list = getFromStorage(listKey);
   return list ?? [];
-  // if (list) return list;
-  // return [];
 };
 
 function App() {
