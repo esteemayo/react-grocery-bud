@@ -52,7 +52,7 @@ function App() {
         title: name,
       };
 
-      setList([...list, newList]);
+      setList((prev) => ([...prev, newList]));
       setName('');
     }
   };
