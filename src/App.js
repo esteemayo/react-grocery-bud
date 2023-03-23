@@ -7,7 +7,7 @@ import Button from './components/Button';
 import './App.css';
 
 const getLocalStorage = () => {
-  const list = localStorage.getItem("list");
+  const list = localStorage.getItem('list');
 
   if (list) return JSON.parse(list);
 
