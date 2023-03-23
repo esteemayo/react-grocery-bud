@@ -5,6 +5,7 @@ import List from 'components/List';
 import Button from 'components/Button';
 
 import './App.css';
+import { setToStorage } from 'utils';
 
 const getLocalStorage = () => {
   const list = localStorage.getItem('list');
