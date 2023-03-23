@@ -85,7 +85,8 @@ function App() {
           <Alert
             {...alert}
             hideAlert={showAlert}
-            list={list} />
+            list={list}
+          />
         )}
         <h3>Grocery Bud</h3>
         <div className='form-control'>
