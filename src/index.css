@@ -152,7 +152,7 @@ p {
 
 .btn:hover {
   color: var(--clr-white);
-  background: var(--clr-black);
+  background-color: var(--clr-black);
 }
 
 /* section */
