@@ -247,7 +247,7 @@ Grocery List
 }
 
 .submit-btn {
-  background: var(--clr-primary-8);
+  background-color: var(--clr-primary-8);
   border-color: transparent;
   flex: 0 0 5rem;
   display: grid;
