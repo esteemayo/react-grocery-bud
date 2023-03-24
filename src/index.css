@@ -331,7 +331,7 @@ Grocery List
   height: 1.5rem;
   display: grid;
   align-items: center;
-  background: transparent;
+  background-color: transparent;
   border-color: transparent;
   color: var(--clr-red-light);
   margin: 0 auto;
