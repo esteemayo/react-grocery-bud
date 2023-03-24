@@ -232,7 +232,7 @@ Grocery List
 .grocery {
   padding: 0.25rem;
   padding-left: 1rem;
-  background: var(--clr-grey-10);
+  background-color: var(--clr-grey-10);
   border-top-left-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
   border-color: transparent;
