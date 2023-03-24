@@ -285,7 +285,7 @@ Grocery List
 
 .grocery-item:hover {
   color: var(--clr-grey-5);
-  background: var(--clr-grey-10);
+  background-color: var(--clr-grey-10);
 }
 
 .grocery-item:hover .title {
