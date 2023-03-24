@@ -264,7 +264,7 @@ Grocery List
 }
 
 .submit-btn:hover {
-  background: var(--clr-primary-5);
+  background-color: var(--clr-primary-5);
   color: var(--clr-white);
 }
 
