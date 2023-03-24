@@ -137,7 +137,7 @@ p {
 
 .btn {
   text-transform: uppercase;
-  background: transparent;
+  background-color: transparent;
   color: var(--clr-black);
   padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
