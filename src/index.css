@@ -185,7 +185,7 @@ Grocery List
 ===============
 */
 .section-center {
-  background: var(--clr-white);
+  background-color: var(--clr-white);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
